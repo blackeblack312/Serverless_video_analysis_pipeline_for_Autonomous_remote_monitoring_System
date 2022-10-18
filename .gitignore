@@ -1,0 +1,32 @@
+# cache files for sublime text
+*.tmlanguage.cache
+*.tmPreferences.cache
+*.stTheme.cache
+
+# workspace files are user-specific
+*.sublime-workspace
+
+# project files should be checked into the repository, unless a significant
+# proportion of contributors will probably not be using SublimeText
+# *.sublime-project
+
+# sftp configuration file
+sftp-config.json
+
+#project-specific ignores
+pyenv*
+.DS_Store
+*.zip
+build/*
+!build/.gitkeep
+build.pyc
+config/
+#web-ui/logs/*
+#web-ui/node_modules/
+#web-ui/bower_components/
+#web-ui/tmp
+lambda/imageprocessor/pytz*
+venv/
+
+#IDE files
+.idea/
